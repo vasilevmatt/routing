@@ -94,7 +94,7 @@ function renderContent(article, loadingStatus, isLogged, onDelete) {
         </div>
       </div>
       <Flex align="center" justify="space-between">
-        {description && <p className={classes.article__description}>{description}</p>}
+        {description && <article className={classes.article__description}>{description}</article>}
         {isLogged && (
           <Flex gap={12}>
             <Popconfirm placement="rightTop" description="Are you sure to delete that article?" onConfirm={onDelete}>
