@@ -1,0 +1,19 @@
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.card__heart {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+
+  &--liked {
+    color: red;
+  }
+}
+
+.card__likes {
+  font-size: 12px;
+  cursor: pointer;
+}

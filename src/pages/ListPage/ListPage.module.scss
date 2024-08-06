@@ -1,0 +1,19 @@
+@import '../../index.scss';
+
+.list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 26px;
+	margin-bottom: 20px;
+
+	&__loading {
+		@include blog-card;
+		width: 65.5vw;
+		height: 116px;
+		margin: auto;
+	}
+
+	&__pagination {
+		margin-bottom: 10px;
+	}
+}
